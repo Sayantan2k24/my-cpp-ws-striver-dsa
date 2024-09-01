@@ -55,7 +55,7 @@ void pattern17Sol1(int n) {
             else letter-- ;              // So include just the previos one
                    // As even though C is the break point , but B is the element after which last post increment is happening 
         }                       // once it is reaching C, then Post decrement is happening 
-        // That is why as per the logic, j < breakpoint - 1 , as j starts from 0, if it was starting with 1, then j < breakpoint, as we have to include just the element 1 index before the breakPoint
+        // That is why as per the logic, j < breakpoint - 1 , as j starts from 0, if it was starting with 1, then j < breakPoint or j<=breakPoint-1  as we have to include just the element 1 index before the breakPoint
          
 
 
