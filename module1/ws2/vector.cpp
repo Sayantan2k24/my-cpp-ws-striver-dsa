@@ -24,6 +24,10 @@ void explainVector(){
 
     // Create a new vector by copying another vector
     vector<int> v5(v4); // v5 is now a copy of v4, so it will be {20, 20, 20, 20, 20}
+
+
+
+
 }
 
 int main(){
@@ -35,3 +39,9 @@ int main(){
 // push_back vs emplace_back: emplace_back is generally more efficient for inserting complex objects as it constructs them in place.
 // Vector initialization: vector<int> vec(n, x) initializes a vector with n elements, each having the value x.
 // Copy constructor: vector<int> v2(v1) creates a new vector v2 as an exact copy of v1.
+
+
+
+
+
+
