@@ -12,21 +12,12 @@
       }
     },
     {
-      "label": "compile, run, and clean",
+      "label": "compile and run",
       "type": "shell",
-      "command": "bash",
-      "args": [
-        "-c",
-        "g++ -std=c++17 -o ${fileBasenameNoExtension} ${file} && ./${fileBasenameNoExtension} < input.txt > output.txt && rm -f ${fileBasenameNoExtension}"
-      ],
+      "command": "g++ -std=c++17 -o ${fileBasenameNoExtension} ${file} && ./${fileBasenameNoExtension} < input.txt > output.txt",
       "group": {
         "kind": "build",
         "isDefault": true
-      },
-      "presentation": {
-        "reveal": "always",
-        "panel": "new",
-        "focus": true
       }
     }
   ]
